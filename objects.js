@@ -5,10 +5,13 @@ let person = {
    age: 48,
    inClass: true,
    classesTaught: ['Javascript','arrays']
-}
+   }
     console.log(person.name)
     console.log(person["name"])
     console.log(person["classesTaught"][0])
+
+
+
 
 
     let person = {
@@ -18,7 +21,7 @@ let person = {
         inClass: true,
         classesTaught: ['Javascript','arrays']
        
-     }
+        }
      
     
     
@@ -49,7 +52,7 @@ let person = {
         age: 31,
         inClass: true,
         
-     }
+        }
 
 console.log(person)
 //change age to 2
@@ -64,7 +67,7 @@ let teacher = {
     classes:[],
     currentlyTeaching: true,
     hairStyle: null,
- }
+    }
      
     Teacher.Classes.push("array")
     teacher.classes.push("objects")
@@ -81,9 +84,7 @@ let teacher = {
 let TeacherAssistant = {
   name: "Juice",
   inClass: true,
-  
-
-}
+  }
 
   console.log(TeacherAssistant)
   TeacherAssistant.Classes = []
